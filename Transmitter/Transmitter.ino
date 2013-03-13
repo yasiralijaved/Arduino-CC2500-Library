@@ -31,6 +31,13 @@ void setup()
 
   Serial.println("Starting..");
   init_CC2500();
+
+  /* This function is to make sure that cc2500 is successfully configured.
+   * This function read values of some registers from CC2500. 
+   * To use this function, you must read the register values from 
+   * -> Arduino-CC2500-Library / CC2500_Library / cc2500_VAL.h
+   * Then compare the values from result of this function..
+   */
   Read_Config_Regs();
 }
 
