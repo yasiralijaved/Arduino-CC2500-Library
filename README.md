@@ -1,12 +1,12 @@
 Arduino-CC2500-Library
 ======================
 
-This library is used to connect CC2500 RF Module (Texas Instruments) with Arduino. 
-This library is tested on Arduino UNO.
+This library is used to connect CC2500 RF Module (Texas Instruments) with Arduino.
+This library is tested on Arduino UNO. 
 Packet Transmission is used (Variable Packet Length).
-------------------------------------------------------------------------------------
 
-<-- CC2500 Configuration Specifications -->
+CC2500 Configuration Specifications
+------------------------------------------------------------------------------------
 
 Sync word qualifier mode = 30/32 sync word bits detected
 
@@ -42,10 +42,10 @@ Packet length mode = Variable packet length mode. Packet length configured by th
 
 Packet length = 255
 
-/* Modulation format = 2-FSK */
+Modulation format = 2-FSK
 
-/* Base frequency = 2432.999908 */
+Base frequency = 2432.999908
 
-/* Modulated = true */
+Modulated = true
 
-/* Channel number = 0 */
+Channel number = 0
