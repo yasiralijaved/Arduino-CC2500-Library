@@ -8,39 +8,39 @@ This library is tested on Arduino UNO.
 
 CC2500 Configuration Specifications:
 
-/* Sync word qualifier mode = 30/32 sync word bits detected */
+Sync word qualifier mode = 30/32 sync word bits detected
 
-/* CRC autoflush = false */
+CRC autoflush = false
 
-/* Channel spacing = 199.951172 */
+Channel spacing = 199.951172
 
-/* Data format = Normal mode */
+Data format = Normal mode
 
-/* Data rate = 2.39897 */
+Data rate = 2.39897
 
-/* RX filter BW = 203.125000 */
+RX filter BW = 203.125000
 
-/* Preamble count = 4 */
+Preamble count = 4
 
-/* Whitening = false */
+Whitening = false
 
-/* Address config = No address check */
+Address config = No address check
 
-/* Carrier frequency = 2432.999908 */
+Carrier frequency = 2432.999908
 
-/* Device address = 0 */
+Device address = 0
 
-/* TX power = 0 */
+TX power = 0
 
-/* Manchester enable = false */
+Manchester enable = false
 
-/* CRC enable = true */
+CRC enable = true
 
-/* Deviation = 38.085938 */
+Deviation = 38.085938
 
-/* Packet length mode = Variable packet length mode. Packet length configured by the first byte after sync word */
+Packet length mode = Variable packet length mode. Packet length configured by the first byte after sync word
 
-/* Packet length = 255 */
+Packet length = 255
 
 /* Modulation format = 2-FSK */
 
