@@ -1,3 +1,41 @@
+/*
+* Transmitter file is designed to transmit a packet of 3 bytes.
+* -------------------------------------------------------------
+* The Packet which is to be sent is hard-coded.
+*
+* Pattern for the Packet is: 
+* 1st Byte = Length of Packet
+* 2nd Byte = Your Data
+* 3rd Byte = More Data
+* .
+* .
+* Nth Byte = Last Byte of Data
+*
+* -------------------------------------------------------------
+*
+* Hard-coded Packet for this sample program is:
+* 1st Byte = 3;    // Length of Packet
+* 2nd Byte = 0x09;
+* 3rd Byte = 0x01;
+*
+* Receiver will get the Packet in the above Pattern.
+*
+* -------------------------------------------------------------
+*
+* To run this program properly, do the following steps:
+*
+* 1. Connect the GDO0-Pin of CC2500 With Arduino's Pin-4
+* 2. Connect a Push Button(Active-High) with Arduino's Pin-2
+* 3. Transmitter will continously trransmit the Hard-coded Packet Until You Release the Push-Button to Low
+*
+* -------------------------------------------------------------
+*
+* Precautions:
+* - Do appropriate current and voltage conversion between your microcontroller and CC2500 module.
+* - High voltage or High current may damage your CC2500 Module.
+*/
+
+
 #include <cc2500_REG.h>
 #include <cc2500_VAL.h>
 
