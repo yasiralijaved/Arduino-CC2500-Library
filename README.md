@@ -5,16 +5,26 @@ This library is used to connect CC2500 RF Module (Texas Instruments) with Arduin
 This library is tested on Arduino UNO. 
 Packet Transmission is used (Variable Packet Length).
 
+
 Arduino UNO Pin Configration With CC2500 Module
 
+
 Arduino Pin (4)         -> CC2500 Pin (6)  [GDO0]
+
 Arduino Pin (13) [SCK]  -> CC2500 Pin (1)  [SCLK]
+
 Arduino Pin (12) [MISO] -> CC2500 Pin (20) [SI]
+
 Arduino Pin (11) [MOSI] -> CC2500 Pin (2)  [SO]
+
 Arduino Pin (10) [SS]   -> CC2500 Pin (7)  [CSn]
 
+
 Arduino Pin (3.3V)      -> CC2500 [VCC]
+
 Arduino Pin (GND)       -> CC2500 [GND]
+
+
 
 CC2500 Configuration Specifications
 ------------------------------------------------------------------------------------
