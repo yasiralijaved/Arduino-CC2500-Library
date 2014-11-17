@@ -7,7 +7,7 @@ Packet Transmission is used (Variable Packet Length).
 
 
 Arduino UNO Pin Configration With CC2500 Module
-
+------------------------------------------------------------------------------------------
 
 Arduino Pin (4)         -> CC2500 Pin (6)  [GDO0]
 
